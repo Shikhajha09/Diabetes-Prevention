@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prevent Diabetes - Expert Guidance</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+  }
+  header {
+    background: #007aff;
+    color: white;
+    padding: 1.5em 1em;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  header p {
+    margin: 0.3em 0 0;
+    font-size: 1em;
+  }
+  .cta-button {
+    margin-top: 1em;
+    background: #ffa726;
+    color: white;
+    border: none;
+    padding: 0.75em 2em;
+    font-size: 1.1em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .cta-button:hover {
+    background: #fb8c00;
+  }
+  main {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+  section {
+    margin-bottom: 3em;
+  }
+  h2 {
+    color: #007aff;
+    margin-bottom: 1em;
+  }
+  .expert-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+  }
+  .expert-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ccc;
+    padding: 1em;
+    width: calc(33% - 1em);
+    text-align: center;
+  }
+  .expert-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+  }
+  .expert-name {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+  }
+  .partner-section {
+    background: white;
+    text-align: center;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ccc;
+  }
+  .partner-section img {
+    width: 150px;
+    margin-top: 0.5em;
+  }
+  .content-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.5em;
+  }
+  .content-item {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ccc;
+  }
+  .content-item h3 {
+    margin-top: 0;
+  }
+  .subscription-box {
+    background: #e1f0ff;
+    border-radius: 8px;
+    padding: 2em;
+    text-align: center;
+    box-shadow: 0 2px 6px #9fbbd1;
+  }
+  .subscription-box input[type="email"] {
+    width: 70%;
+    max-width: 350px;
+    padding: 0.75em;
+    font-size: 1em;
+    border-radius: 25px;
+    border: 1px solid #007aff;
+    margin-right: 0.5em;
+  }
+  .subscription-box button {
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    background: #007aff;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .subscription-box button:hover {
+    background: #005bb5;
+  }
+  footer {
+    background: #007aff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+  }
+  @media(max-width: 720px) {
+    .expert-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .expert-card {
+      width: 80%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Prevent Diabetes with Expert Guidance</h1>
+  <p>Your health journey starts here. Tailored for ages 30-40.</p>
+  <button class="cta-button" onclick="document.getElementById('subscription').scrollIntoView()">Start Your Prevention Journey</button>
+</header>
+
+<main>
+
+  <section>
+    <h2>Why Prevent Diabetes?</h2>
+    <p>Diabetes can be prevented with simple lifestyle changes, especially if you’re aged 30-40. Our platform helps you learn how to make these changes effectively with trusted advice from top diabetologists.</p>
+  </section>
+
+  <section>
+    <h2>Meet Our Experts</h2>
+    <div class="expert-list">
+      <div class="expert-card">
+        <img src="https://randomuser.me/api/portraits/med/women/65.jpg" alt="Dr. Anjali Sharma" />
+        <div class="expert-name">Dr. Anjali Sharma</div>
+        <div>Endocrinologist with 15+ years experience in diabetes care.</div>
+      </div>
+      <div class="expert-card">
+        <img src="https://randomuser.me/api/portraits/med/men/32.jpg" alt="Dr. Rajiv Menon" />
+        <div class="expert-name">Dr. Rajiv Menon</div>
+        <div>Leading diabetologist specialized in preventive healthcare.</div>
+      </div>
+      <div class="expert-card">
+        <img src="https://randomuser.me/api/portraits/med/women/75.jpg" alt="Dr. Meera Kapoor" />
+        <div class="expert-name">Dr. Meera Kapoor</div>
+        <div>Expert in lifestyle intervention and nutrition for diabetes prevention.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partner-section">
+    <h2>Our Wellness Partner</h2>
+    <p>We are proud to collaborate with <strong>Cult Fit</strong> to bring you holistic wellness and fitness support alongside our diabetes prevention content.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Cult_Fit_Logo.png" alt="Cult Fit Logo" />
+  </section>
+
+  <section>
+    <h2>Prevention Content</h2>
+    <div class="content-items">
+      <article class="content-item">
+        <h3>5 Foods to Prevent Diabetes</h3>
+        <p>Discover foods that help regulate blood sugar levels and keep diabetes at bay.</p>
+      </article>
+      <article class="content-item">
+        <h3>Easy Exercises for Busy Adults</h3>
+        <p>Effective exercise routines tailored for adults aged 30-40 to maintain a healthy weight and insulin sensitivity.</p>
+      </article>
+      <article class="content-item">
+        <h3>Managing Stress to Prevent Diabetes</h3>
+        <p>Understand how stress affects blood sugar and explore stress reduction techniques.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="subscription" class="subscription-box">
+    <h2>Join Our Prevention Program</h2>
+    <p>Subscribe for expert webinars, personalized plans, and ongoing support.</p>
+    <input type="email" placeholder="Enter your email" aria-label="Email for subscription" />
+    <button onclick="alert('Thank you for subscribing! We will be in touch.')">Subscribe Now</button>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Our mission is to empower Indians aged 30-40 to prevent diabetes through trusted expert advice and accessible education. Our team of top diabetologists collaborates with Cult Fit to provide holistic wellness support that integrates fitness and lifestyle habits.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form onsubmit="event.preventDefault(); alert('Thank you for reaching out. We will contact you shortly.');" style="max-width: 400px;">
+      <label for="name">Name:</label><br />
+      <input id="name" type="text" required style="width: 100%; padding: 0.5em; margin: 0.25em 0 1em;" /><br />
+      <label for="emailContact">Email:</label><br />
+      <input id="emailContact" type="email" required style="width: 100%; padding: 0.5em; margin: 0.25em 0 1em;" /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" rows="4" required style="width: 100%; padding: 0.5em; margin: 0.25em 0 1em;"></textarea><br />
+      <button type="submit" style="background: #007aff; border: none; color: white; padding: 0.75em 1.5em; border-radius: 25px; cursor: pointer;">Submit</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Prevent Diabetes Platform. All rights reserved.
+</footer>
+
+</body>
+</html>
